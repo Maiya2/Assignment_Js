@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+*{
+    background-color: rgb(223, 200, 200);
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(0, 0, 0);
+    font-size: 30px ;
+}
+.main{
+    width: 85%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    text-align: center;
+    padding: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #000000;
+    font-size: 38px;
+}
+.container{
+    width: 700px;
+    min-height: 500px;
+    background-color: #16242e;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 40px 50px 40px 50px;
+}
+#items{
+        padding: 14px;
+        font-size: 20px;
+        width: 95%;
+    
+        
+        display: block;
+        font-weight: bold;
+        box-shadow: 0px 0px 2px rgb(0, 0, 0);
+}
+#item-list{
+    margin-top: 20px;
+    list-style: none;
+}
+#item-list li {
+    position: relative;
+    background-color: #3c3e3f;
+    color: white;
+    padding: 10px;
+    border-radius: 2px;
+    padding-right: 30px;
+    text-align: justify;
+    margin-top: 10px;
+    user-select: none;
+}
+#item-list li i {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+.done {
+    text-decoration: line-through;
+    color: black;
+    background-color: #4f5152 !important;
+}
