@@ -1,0 +1,43 @@
+body{
+    background-color: rgb(21, 21, 21);
+}
+.find{
+    color: rgb(253, 253, 253);
+    width: fit-content;
+    text-align: center;
+    margin-left: 5px;
+    text-align: center;
+
+}
+#cont{
+    font-weight: 500;
+    font-variant: normal;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  .find{
+    color: white;
+    font-size: 40px;
+  }
+  .btn {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    border-radius: 25px;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
